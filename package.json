@@ -1,0 +1,28 @@
+{
+  "name": "pointenv",
+  "version": "1.0.0",
+  "description": "PointEnv is a  node-library to be  Loads environment variables from .env file",
+  "main": "dist/pointenv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeflict/pointenv.git"
+  },
+  "keywords": [
+    "pointenv",
+    "dotenv",
+    ".env",
+    "env",
+    "environment",
+    "envloader",
+    "variables"
+  ],
+  "author": "Shahzada Modassir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeflict/pointenv/issues"
+  },
+  "homepage": "https://github.com/nodeflict/pointenv#readme"
+}
