@@ -1,3 +1,15 @@
+/**
+ * PointEnv loads the simple environment variables v1.0.0
+ * https://github.com/nodeflict/pointenv
+ * 
+ * @license MIT license
+ * @version 1.2.0
+ * 
+ * https://github.com/nodeflict/pointenv/blob/main/LICENSE
+ * 
+ * @author Shahzada Modassir
+ * date: 21 December 2023 14:52 GMT+0530 (India)
+ */
 const path = require("path");
 const fs = require("fs");
 
@@ -35,15 +47,15 @@ function loadEnv(env, options) {
 	return retenv;
 }
 
-function pointenv() {
-	return new pointenv.prototype.init();
+function PointEnv() {
+	return new PointEnv.prototype.init();
 }
 
-pointenv.load=function(env) {
+PointEnv.load=function(env) {
 	var name, data = loadEnv(env);
 	for(name in data) {
 		process.env[name]=data[name];
 	}
 };
 
-module.exports=pointenv;
+module.exports=PointEnv;

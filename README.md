@@ -11,7 +11,7 @@ Create a `.env` file in the root of your project:
 
 ```dosini
 NAME=Pointenv
-VERSION=1.0.0
+VERSION=1.2.0
 LICENSE=MIT
 AUTHOR=Shahzada Modassir
 DEBUG=true
